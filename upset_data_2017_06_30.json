@@ -14,7 +14,7 @@
 		{ "type": "integer", "index": 6, "name": "Distance_to_closest_gene" },
 		{ "type": "float", "index": 7, "name": "Divergence_max1", "min": 0, "max": 1},
 		{ "type": "integer", "index": 8, "name": "TE_length" },
-	],
+		],
 	"sets": [
 		{ "format": "binary", "start": 9, "end": 60 }
 	]
