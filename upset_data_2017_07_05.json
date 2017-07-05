@@ -1,0 +1,22 @@
+{
+	"file": "https://raw.githubusercontent.com/gabyrech/hello-world/master/upset_data_2017_07_05.csv",
+	"name": "Adaptive TEs",
+	"header": 0,
+	"separator": "\t",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "TE" },
+		{ "type": "float", "index": 1, "name": "AfricaFreq", "min": 0, "max": 1},
+		{ "type": "float", "index": 2, "name": "DGRPFreq", "min": 0, "max": 1},
+		{ "type": "integer", "index": 3, "name": "Canonical_length" },
+		{ "type": "float", "index": 4, "name": "Comeron_cM_mb", "min": 0, "max": 3},
+		{ "type": "float", "index": 5, "name": "midpoint_rate_cM_mb", "min": 0, "max": 4},
+		{ "type": "integer", "index": 6, "name": "Distance_to_closest_gene" },
+		{ "type": "float", "index": 7, "name": "Divergence_max1", "min": 0, "max": 1},
+		{ "type": "integer", "index": 8, "name": "TE_length" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 9, "end": 43 }
+	]
+}
+
