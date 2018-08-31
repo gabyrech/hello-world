@@ -1,0 +1,15 @@
+{
+	"file": "https://raw.githubusercontent.com/gabyrech/hello-world/master/unifyTEs_100-NoFam_FixFamName_NotOnlyFBti_presence_absence.txt",
+	"name": "Presence/Absence TE",
+	"header": 0,
+	"separator": "\t",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "TE" },
+		{ "type": "float", "index": 15, "name": "Length", "min": 23, "max": 100000},
+		{ "type": "string", "index": 16, "name": "Family", "min": 23, "max": 100000}
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 14 }
+	]
+}
